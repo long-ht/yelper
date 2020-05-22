@@ -1,0 +1,59 @@
+  .SearchBar {
+    background-image: url('./background_search_desktop.jpg');
+    height:15rem;
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat;
+  } 
+  .SearchBar-sort-options ul {
+    display: flex;
+    justify-content: center;
+    padding-top:1rem;
+    color: #ffffff;
+  }
+  
+  .SearchBar-sort-options li {
+    cursor: pointer;
+    border-bottom: 1px solid #fff;
+    padding: 0 2.58rem .33rem 2.58rem;
+    line-height: 1.13;
+    text-align: center;
+    font-size: 1.2rem;
+    transition: color .25s;
+  }
+   
+  .SearchBar-sort-options li:hover {
+    color: #d4cfcf;
+  }
+  
+  .SearchBar-sort-options li.active,
+  .SearchBar-sort-options li.active:hover {
+    border-bottom: 1px solid #DC3545;
+    color: #DC3545;
+  }
+
+  @media (max-width: 768px) {
+    .SearchBar-sort-options li {
+      font-size: 1.1rem;
+    }
+  
+    .SearchBar-sort-options ul {
+      margin-left: 1.5rem;
+      margin-right: 1.5rem;
+    }
+  } 
+
+  @media (max-width: 576px) {
+    .SearchBar-sort-options li {
+      font-size: 0.8rem;
+    }
+    .SearchBar {
+      background-image: url('./background_search_mobile.jpg');
+    }
+  
+    .SearchBar-sort-options ul {
+      margin-left: 3rem;
+      margin-right: 3rem;
+    }
+  }
+
