@@ -1,4 +1,4 @@
-const apiKey = 'wHhKPF1p0zvozqd72rro2SdrmuIyvF3BNvvUkHhyL6_CxbxHHQ74tX_taz_IMQ2jw9ojS9TZt3ROrr5dSDfjDp0dsANBY8KnpZ2ghgalEKWsxOSxUWythXgzKjfAXnYx';
+const apiKey = process.env.YELP_API_KEY;
 const CORS = 'https://cors-anywhere.herokuapp.com/';
 const Yelp = {
     search: async (term, location, sortBy) => {
