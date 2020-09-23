@@ -1,4 +1,4 @@
-#[Yelper](http://yelper1945.herokuapp.com/)  
+# [Yelper](http://yelper1945.herokuapp.com/)  
 An web app that allows you to search up businesses like restaurants, spas, arcades, etc.
 ![Demo](demo/Demo.png?raw=true)
 How to run:
